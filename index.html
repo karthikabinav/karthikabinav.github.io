@@ -17,7 +17,11 @@
 		  ga('send', 'pageview');
 
 		</script>
-		<script src="js/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src="js/jquery.min.js"></script>
 		<script src="js/jquery.scrolly.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
@@ -90,39 +94,195 @@
 					<li>
 					"Attenuate Locally, Win Globally: Attenuation-based Frameworks for Online Stochastic Matching with Timeouts"
                     <br/>
-				Joint Work with Brian Brubach, Aravind Srinivasan, Pan Xu
+				    Joint Work with Brian Brubach, Aravind Srinivasan, Pan Xu
 				 <br/>
 				<b>Proceedings of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2017</b> <br/>
-			    <a href="papers/aamas2017.pdf" target="_blank">Paper</a>
-				<br/>
+                <p>
+                <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#aamas17" aria-expanded="false" aria-controls="aamas17">
+                  Abstract
+                </button>
+
+                <a href="papers/aamas2017.pdf" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none">Paper</a> <br/><br/>
+                </p>
+                <div class="collapse" id="aamas17">
+                <div class="card card-block" style="width:1200px; margin:0 auto;">
+                <p >
+                    <b>Abstract:</b> The Online Stochastic Matching with Timeouts problem introduced by Bansal, Gupta, Li, Mestre, Nagarajan, and Rudra (Algorithmica, 2012) models
+                    matching markets (e.g. E-Bay, Amazon). Buyers arrive from an independent and identically distributed (i.i.d.) known distribution
+                    on buyer profiles and can be shown a list of items one at a time. Each buyer has some probability of purchasing each item and a limit
+                    (timeout) on the number of items they can be shown. Bansal et al. (Algorithmica, 2012) gave a 0.12-competitive algorithm
+                    which was improved by Adamczyk, Grandoni, and Mukherjee (ESA, 2015) to 0.24. We present an online attenuation framework
+                    that uses an algorithm for offline stochastic matching as a black box. Our main contributions are as follows. On the upper bound side, we
+                    show that this framework combined with a black box adapted from Bansal et al. (Algorithmica, 2012) yields an online algorithm which
+                    nearly doubles the ratio to 0.46. On the lower bound side, we show that no algorithm can achieve a ratio better than 0.632 using the
+                    common LP for this problem. We then introduce a natural generalization: Online Stochastic Matching with Two-sided Timeouts in which both
+                    online and offline vertices have timeouts. Our framework provides the first algorithm for this problem achieving a ratio of 0.31. We
+                    accomplish this by proposing a new black box algorithm for offline stochastic matching on star graphs, which may be of independent
+                    interest. This new black box improves the approximation ratio for the offline stochastic matching problem on star graphs from 0.5 by
+                    Adamczyk et al. (ESA 2015) to 0.56. <br/><br/>
+                    <b>Keywords:</b> Randomized Algorithms; Online Algorithms; Theory of Computation
+
+                </p>
+                </div>
+                <br/><br/>
+                </div>
 				</li>
 
 						<li>
 						"New Algorithms, Better Bounds, and a Novel Model for Online Stochastic Matching"<br/>
 						Joint Work with <a href="http://www.cs.umd.edu/~bbrubach" target="_blank">Brian Brubach</a>, Aravind Srinivasan, <a href="https://sites.google.com/site/panxupi/" target="_blank">Pan Xu</a> <br/>
 						<b>Proceedings of the 24th Annual European Symposium on Algorithms (ESA), 2016 </b> <br/>
-						<a href="http://arxiv.org/abs/1606.06395" target="_blank">Paper</a>
-						</li>
-					  <li>
+                  <p>
+                  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#esa16" aria-expanded="false" aria-controls="esa16">
+                    Abstract
+                  </button>
+
+				  <a href="http://arxiv.org/abs/1606.06395" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none">Paper</a>
+                  </p>
+                <div class="collapse" id="esa16">
+                <div class="card card-block" style="width:1200px; margin:0 auto;">
+                <p>
+                    <b>Abstract:</b> 
+                    We develop algorithms with improved competitive ratios for some basic variants of the known i.i.d. arrival model with integral arrival rates,
+                    including (a) the case of general weighted edges, where we improve the best-known ratio of 0.667 due to Haeupler, Mirrokni and Zadimoghaddam to 0.705 and
+                    (b) the vertex-weighted case, where we improve the 0.7250 ratio of Jaillet and Lu to 0.7299. 
+                    We also consider two extensions, one is known I.I.D. with non-integral arrival rate and stochastic rewards.
+                    The other is known I.I.D. b-matching with non-integral arrival rate and stochastic rewards. 
+                    We present a simple non-adaptive algorithm which works well simultaneously on the two extensions. 
+                    
+                    <br/><br/>
+                    <b>Keywords:</b> Randomized Algorithms; Online Algorithms; Theory of Computation
+
+                </p>
+                </div>
+                <br/><br/>
+                </div>
+				</li>
+					<li>
 					"Ensuring Privacy in Location Based Services: An Approach Based on Opacity Enforcement"<br/>
 					Joint work with Yi-Chin Wu, St`ephane Lafortune. <br/>
 					<b>Proceedings of the 14th International Workshop
 							of Discrete Event Systems (WODES), 2014</b><br/>
-							<a href="http://www.sciencedirect.com/science/article/pii/S1474667015373778" target="_blank"> Paper </a> <br/>
+
+                  <p>
+                  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#wodes14" aria-expanded="false" aria-controls="wodes14">
+                    Abstract
+                  </button>
+
+					  <a href="http://www.sciencedirect.com/science/article/pii/S1474667015373778" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none"> Paper </a> <br/>
+                  </p>
+                <div class="collapse" id="wodes14">
+                <div class="card card-block" style="width:1200px; margin:0 auto;">
+                <p>
+                    <b>Abstract:</b> 
+                    With the proliferation of mobile devices, Location-Based Services (LBS) that provide networked services based on users’ locations have become increasingly popular.
+                    Such services, providing personalized and timely information, have raised privacy concerns such as unwanted revelation of users’ current locations to potential stalkers.
+                    In this work, we show that this problem can be formally (for first time) addressed using the notion of opacity in discrete event systems. We use non-deterministic
+                    finite-state automata to capture the mobility patterns of users and label the transitions by the location information in the queries. Using opacity verification techniques,
+                    we show that the technique of sending cloaking queries to the server can still reveal the exact location of the user. 
+                    To enforce location privacy, we apply the opacity enforcement technique by event insertion. Specifically, we synthesize suitable insertion functions
+                    that insert fake queries into the cloaking query sequences. The generated fake queries are always consistent with the mobility model of the user and
+                    provably ensure privacy of the user’s current location. Finally, to minimize the overhead from fake queries, we design an optimal insertion
+                    function that introduces minimum average number of fake queries.
+                    <br/><br/>
+                    <b>Keywords:</b> Discrete Event Systems; Formal Verification; Applications
+
+                </p>
+                </div>
+                <br/><br/>
+                </div>
 					</li>
 
 					<br/><br/>
-                <h3>Manuscripts (Publicly Available)</h3>
+                <h3>Manuscripts</h3>
                   <li>
                     "Semi-Bandits with Knapsacks"<br/>
                     Joint Work with Alex Slivkins<br/>
-                    <a href="https://arxiv.org/abs/1705.08110" target="_blank">Paper</a>
-                  </li>
-                  <br/><br/>
+                    <p>
+                    <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#semiBwk" aria-expanded="false" aria-controls="semiBwk">
+                    Abstract
+                  </button>
+                      <a href="https://arxiv.org/abs/1705.08110" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none">Paper</a>
+                    </p>
+                <div class="collapse" id="semiBwk">
+                <div class="card card-block" style="width:1200px; margin:0 auto;">
+                <p>
+                    <b>Abstract:</b> 
+                    This paper unifies two lines of work on multi-armed bandits, Bandits with Knapsacks (BwK) and semi-bandits. 
+                    The former concerns scenarios with limited "resources" consumed by the algorithm, e.g., limited inventory in a dynamic pricing problem.
+                    The latter has a huge number of actions, but there is combinatorial structure and additional feedback which makes the problem tractable.
+                    Both lines of work has received considerable recent attention, and are supported by numerous application examples.
+                    We define a common generalization, and design a general algorithm for this model. Our regret rates are comparable with those for BwK and semi-bandits
+                    in general, and essentially optimal for important special cases.                    
+                    <br/><br/>
+                    <b>Keywords:</b> Randomized Algorithms; Online Learning; Theory of Computation; Machine Learning
+
+                </p>
+                </div>
+                <br/><br/>
+                </div>
+                </li>
+
+                <li>
+                    "Algorithms to Approximate Column-Sparse Packing Programs"<br/>
+                    Joint Work with Brian Brubach, Aravind Srinivasan, Pan Xu<br/>
+                    <p>
+                    <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#kcspip" aria-expanded="false" aria-controls="kcspip">
+                    Abstract
+                    </button>
+                    </p>
+                <div class="collapse" id="kcspip">
+                <div class="card card-block" style="width:1200px; margin:0 auto;">
+                <p>
+                    <b>Abstract:</b> 
+                    Column-sparse packing problems arise in several contexts in both deterministic and stochastic discrete optimization.
+                    We present two unifying ideas, (non-uniform) attenuation and multiple-chance algorithms, to obtain improved approximation algorithms
+                    for some well-known families of such problems. As three main examples, we attain the integrality gap, up to lower-order terms,
+                    for known LP relaxations for k-column sparse packing integer programs (Bansal et al., Theory of Computing, 2012)
+                    and stochastic k-set packing (Bansal et al., Algorithmica, 2012), and go “half the remaining distance” to optimal for a major
+                    integrality-gap conjecture of Furedi, Kahn and Seymour on hypergraph matching (Combinatorica, 1993).
+                     <br/><br/>
+                    <b>Keywords:</b> Randomized Algorithms; Theory of Computation
+                </p>
+                </div>
+                <br/><br/>
+                </div>
+                </li>
+
+                <li>
+                    "Online Matching with Offline Reusable Resources"<br/>
+                    Joint Work with John Dickerson, Aravind Srinivasan, Pan Xu<br/>
+                    <p>
+                    <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#reusable" aria-expanded="false" aria-controls="reusable">
+                    Abstract
+                  </button>
+                    </p>
+                <div class="collapse" id="reusable">
+                <div class="card card-block" style="width:1200px; margin:0 auto;">
+                <p>
+                    <b>Abstract:</b> 
+                    Bipartite matching markets pair agents on one side of a market with agents, items, or contracts on the opposing side. Prior work addresses online bipartite matching
+                    markets, where agents arrive over time and are dynamically matched to a known set of disposable resources. In this paper, we propose a new model, Online
+                    Matching with (offline) Reusable Resources under Known Adversarial Distributions (OM-RR-KAD), in which resources on the offline side are reusable instead of
+                    disposable; that is, once matched, resources become available again at some point in the future. We show that our model is tractable by presenting an LP-based
+                    adaptive algorithm that achieves an online competitive ratio of 1/2 − ε for any given ε > 0. We also show that no non-adaptive algorithm can achieve a ratio of
+                    1/2 + o(1) based on the same benchmark LP. Through a data-driven analysis on a massive openly-available dataset, we show our model is robust enough to capture
+                    the application of taxi dispatching service. We also present heuristics that perform well in practice.
+                    <br/><br/>
+                    <b>Keywords:</b> Randomized Algorithms; Online Algorithms; Applications
+
+                </p>
+                </div>
+                <br/><br/>
+                </div>
+                </li>
+
+
 
 					<h3>Technical Reports</h3>
 						<li>
-							"Semi-Bandit Feedback: A survey of results" <a href="surveySemiBandit.pdf" target="_blank"> PDF </a><br/>
+                          "Semi-Bandit Feedback: A survey of results" <br/>
+                            <a href="surveySemiBandit.pdf" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none"> PDF </a><br/>
 							<b> Note this document is still a working one. </b>
 
 						</li>
