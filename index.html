@@ -93,6 +93,47 @@
 				<article id="research">
 				<h3>Publications</h3>
                 <li>
+                    "Assigning Tasks to Workers based on Historical Data: Online Matching with Two-sided Arrivals"<br/>
+                    Joint Work with John Dickerson, Aravind Srinivasan, Pan Xu<br/>
+				    <b>The 17th International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2018</b> <br/>
+                    <p>
+                    <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#twosided" aria-expanded="false" aria-controls="twosided">
+                    Abstract
+                  </button>
+                    </p>
+                <div class="collapse" id="twosided">
+                <div class="card card-block" style="width:70%; margin:0 auto;">
+                <p>
+                    <b>Abstract:</b> 
+                    Efficient allocation of tasks to workers is a central problem in crowdsourcing. In a typical setting, different workers arrive at different times.
+                    Similarly, different tasks arrive at different times. The goal is to assign the available workers to tasks, such that we are able to complete as many
+                    tasks as possible. Usually, the tasks are heterogeneous and have different rewards. Hence, we would like to maximize the total reward (as opposed to just
+                    the number of completed tasks). Often, the arrival times of worker "types" and task "types" are not erratic and can be predicted from historical data.
+                    In this paper, we model the problem to account for this history and propose a new mathematical model, called Online Matching with Two-Sided Arrival (OM-TSA).
+                    We have a known bipartite graph G = (U,V,E) where U is the set of worker types and V is the set of task types. An edge e = (u, v) exists iff worker u is compatible
+                    with task v. The setting proceeds in rounds for T time-steps. At each time-step, a worker u from U and a task v from V are sampled independently from two
+                    respective (known) distributions. Further, we assume the sampling processes are independent and identical across the T rounds. We assume that
+                    (1) when a worker u arrives, they stay in the sys- tem until matched and (2) when a task v arrives, it needs to be assigned to an available worker u
+                    immediately (and obtaining a reward w(u, v)); if not, we do not get any reward for this task (and the action is irrevocable). Our goal is to maximize the
+                    expected reward. Our model is a significant generalization of the classical online matching model, where one of the sets U and V , say U, is assumed to be
+                    available offline. We relax this assump- tion to capture the transient nature of worker arrivals. For the general version of OM-TSA, we present an optimal
+                    non-adaptive algorithm which achieves an online competitive ratio of 0.295. For the special case of OM-TSA where the reward is a function of just the worker type,
+                    we present an improved algorithm (which is adaptive) and achieves a competitive ratio of at least 0.345. On the hardness side, along with showing that the ratio
+                    obtained by our non-adaptive algorithm is the best possible among all non-adaptive algorithms, we further show that no (adaptive) algorithm can achieve a ratio better
+                    than 0.581 (unconditionally), even for the special case of OM-TSA with homogenous tasks (i.e., all rewards are same). At the heart of our analysis lies a new technical
+                    tool (which is a refined notion of the birth-death process) called the two-stage birth-death process, which may be of independent interest. Finally, we perform
+                    numerical experiments on both simulated as well as two real-world datasets obtained from crowdsourcing platforms to complement our theoretical results.
+                    
+                    <br/><br/>
+                    <b>Keywords:</b> Randomized Algorithms; Online Algorithms; Artificial Intelligence; Applications
+
+                </p>
+                </div>
+                <br/><br/>
+                </div>
+                </li>
+
+                <li>
                     "Combinatorial Semi-Bandits with Knapsacks"<br/>
                     Joint Work with Alex Slivkins<br/>
 				    <b>The 21st International Conference on Artificial Intelligence and Statistics (AIStats), 2018</b> <br/>
@@ -287,48 +328,9 @@
 					<br/><br/>
                 <h3>Manuscripts</h3>
                   
-                
+                 
                                 
-                <li>
-                    "Assigning Tasks to Workers based on Historical Data: Online Matching with Two-sided Arrivals"<br/>
-                    Joint Work with John Dickerson, Aravind Srinivasan, Pan Xu<br/>
-                    <p>
-                    <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#twosided" aria-expanded="false" aria-controls="twosided">
-                    Abstract
-                  </button>
-                    </p>
-                <div class="collapse" id="twosided">
-                <div class="card card-block" style="width:70%; margin:0 auto;">
-                <p>
-                    <b>Abstract:</b> 
-                    Efficient allocation of tasks to workers is a central problem in crowdsourcing. In a typical setting, different workers arrive at different times.
-                    Similarly, different tasks arrive at different times. The goal is to assign the available workers to tasks, such that we are able to complete as many
-                    tasks as possible. Usually, the tasks are heterogeneous and have different rewards. Hence, we would like to maximize the total reward (as opposed to just
-                    the number of completed tasks). Often, the arrival times of worker "types" and task "types" are not erratic and can be predicted from historical data.
-                    In this paper, we model the problem to account for this history and propose a new mathematical model, called Online Matching with Two-Sided Arrival (OM-TSA).
-                    We have a known bipartite graph G = (U,V,E) where U is the set of worker types and V is the set of task types. An edge e = (u, v) exists iff worker u is compatible
-                    with task v. The setting proceeds in rounds for T time-steps. At each time-step, a worker u from U and a task v from V are sampled independently from two
-                    respective (known) distributions. Further, we assume the sampling processes are independent and identical across the T rounds. We assume that
-                    (1) when a worker u arrives, they stay in the sys- tem until matched and (2) when a task v arrives, it needs to be assigned to an available worker u
-                    immediately (and obtaining a reward w(u, v)); if not, we do not get any reward for this task (and the action is irrevocable). Our goal is to maximize the
-                    expected reward. Our model is a significant generalization of the classical online matching model, where one of the sets U and V , say U, is assumed to be
-                    available offline. We relax this assump- tion to capture the transient nature of worker arrivals. For the general version of OM-TSA, we present an optimal
-                    non-adaptive algorithm which achieves an online competitive ratio of 0.295. For the special case of OM-TSA where the reward is a function of just the worker type,
-                    we present an improved algorithm (which is adaptive) and achieves a competitive ratio of at least 0.345. On the hardness side, along with showing that the ratio
-                    obtained by our non-adaptive algorithm is the best possible among all non-adaptive algorithms, we further show that no (adaptive) algorithm can achieve a ratio better
-                    than 0.581 (unconditionally), even for the special case of OM-TSA with homogenous tasks (i.e., all rewards are same). At the heart of our analysis lies a new technical
-                    tool (which is a refined notion of the birth-death process) called the two-stage birth-death process, which may be of independent interest. Finally, we perform
-                    numerical experiments on both simulated as well as two real-world datasets obtained from crowdsourcing platforms to complement our theoretical results.
-                    
-                    <br/><br/>
-                    <b>Keywords:</b> Randomized Algorithms; Online Algorithms; Artificial Intelligence; Applications
-
-                </p>
-                </div>
-                <br/><br/>
-                </div>
-                </li>
-
+                
 
 
 					<h3>Technical Reports</h3>
@@ -548,7 +550,7 @@
 					<footer>
 						<ul id="copyright">
 							<li>&copy; Karthik A Sankararaman All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					<li>Last Updated: December 2017</li>
+					<li>Last Updated: January 2018</li>
 						</ul>
 					</footer>
 				</article>
