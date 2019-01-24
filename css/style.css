@@ -296,13 +296,15 @@
 		{
 			display: inline-block;
 			position: relative;
+            top: -100px;
+            left: -100px;
 		}
 
 			.image img
 			{
 				display: block;
-				border-radius: 50px 50px 50px 50px;
-				width: 100%;
+				border-radius: 150px 150px 150px 150px;
+				width: 200%;
 			}
 
 			.image.fit
