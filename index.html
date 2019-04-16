@@ -505,6 +505,38 @@
                   "On the convergence of SGD on neural nets and other over-parameterized problems" <br/>
                   Joint Work with Soham De, Zheng Xu, Ronny Huang, Tom Goldstein <br/>
                   <strong> NeurIPS Workshop on Integration of Deep Learning Theories, 2018.</strong><br/><br/>
+                  <p>
+                  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#SGD" aria-expanded="false" aria-controls="SGD">
+                    Abstract
+                  </button>
+
+				  <a href="https://arxiv.org/pdf/1904.06963.pdf" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none;text-shadow:none">Paper</a>
+                  </p>
+                   <div class="collapse" id="SGD">
+                    <div class="card card-block" style="width:70%; margin:0 auto;">
+                    <p>
+                      <strong>Abstract:</strong> 
+                      The goal of this paper is to study why stochastic gradient descent (SGD) is efficient for neural networks, and how neural net design affects SGD.
+                      In particular, we investigate how overparameterization -- an increase in the number of parameters beyond the number of training data -- affects the dynamics of SGD.
+                      
+                      We introduce a simple concept called gradient confusion.  When confusion is high, stochastic gradients produced by different data
+                      samples may be negatively correlated, slowing down convergence.
+
+                      But when gradient confusion is low, we show that SGD has better convergence properties than predicted by classical theory.
+                      Using theoretical and empirical results, we study how overparameterization affects gradient confusion, and thus the
+                      convergence of SGD, on linear models and neural networks. We show that increasing the number of parameters of linear
+                      models or increasing the width of neural networks leads to lower gradient confusion, and thus faster
+                      and easier model training. We further show how overparameterization by increasing the depth of neural
+                      networks results in higher gradient confusion, making deeper models harder to train. Finally, we observe
+                      empirically that batch normalization and skip connections reduce gradient confusion, which helps reduce the training
+                      burden of deep networks.
+                      <br/><br/>
+                    <strong>Keywords:</strong> Deep Learning; Machine Learning; Optimization; Theory of Computation
+                  </p>
+                  </div>
+                    <br/><br/>
+                  </div>
+
                 </li>
                 <li>
                   "Stability of Linear Structural Equation Model of Causal Inference"<br/>
