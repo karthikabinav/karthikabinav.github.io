@@ -126,7 +126,58 @@
 
 				<h2>Conference Publications</h2>
                 <strong>(In (almost) all papers, the authors chose the convention of alphabetical order by last names)</strong><br/><br/>
-                 
+					(12) "Adversarial Bandits with Knapsacks"<br/>
+                    Joint Work with Nicole Immorlica, Robert Schapire, Aleksandrs Slivkins <br/>
+                  <strong> The 60th IEEE Symposium on Foundations of Computer Science (FOCS), 2019</strong><br/>
+                  <strong> INFORMS Workshop on Market Design, 2019</strong><br/>
+                  <p>
+                  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#advBwK" aria-expanded="false" aria-controls="advBwK">
+                    Abstract
+                  </button>
+
+				  <a href="https://arxiv.org/pdf/1811.11881.pdf" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none;text-shadow:none">Paper</a>
+                 <!-- 
+                  <button class="btn btn-warning btn-sm" type="button" data-toggle="collapse" data-target="#advBwKBib" aria-expanded="false" aria-controls="advBwKBib">
+                    Bibtex
+                  </button>
+                  -->
+                  <a href="posters/poster_AdvBwK.pdf" target="_blank" class="btn btn-danger btn-sm" style="text-decoration:none;text-shadow:none">Poster</a>
+                  </p>
+                   <div class="collapse" id="advBwK">
+                    <div class="card card-block" style="width:70%; margin:0 auto;">
+                    <p>
+                      <strong>Abstract:</strong> 
+                      We consider Bandits with Knapsacks (henceforth, BwK), a general model for multi-armed bandits under supply/budget constraints. In particular, a bandit algorithm needs to solve a well-known knapsack
+                      problem: find an optimal packing of items into a limited-size knapsack. The BwK problem is a common generalization of numerous motivating examples, which range from dynamic pricing to repeated auctions
+                      to dynamic ad allocation to network routing and scheduling. While the prior work on BwK focused on the stochastic version, we pioneer the other extreme in which the outcomes can be chosen adversarially. This
+                      is a considerably harder problem, compared to both the stochastic version and the “classic” adversarial bandits, in that regret minimization is no longer feasible. Instead, the objective is to minimize the
+                      competitive ratio: the ratio of the benchmark reward to algorithm’s reward. We design an algorithm with competitive ratio O(log T) relative to the best fixed distribution over
+                      actions, where T is the time horizon; we also prove a matching lower bound. The key conceptual contribution is a new perspective on the stochastic version of the problem. We suggest a new algorithm
+                      for the stochastic version, which builds on the framework of regret minimization in repeated games and admits a substantially simpler analysis compared to prior work. We then analyze this algorithm for the
+                      adversarial version, and use it as a subroutine to solve the latter                    
+                      <br/><br/>
+                    <strong>Keywords:</strong> Online Learning; Machine Learning; Randomized Algorithms; Theory of Computation
+                  </p>
+                  </div>
+                    <br/><br/>
+                  </div>
+
+
+                <div class="collapse" id="advBwKBib">
+                <div class="card card-block" style="width:80%; margin:0 auto;">
+                 <pre style="text-align:left">
+                 <code>
+                 @article{ISSS18,
+                    title={Adversarial Bandits with Knapsacks},
+                    author={Immorlica, Nicole and Sankararaman, Karthik Abinav and Schapire, Robert and Slivkins, Aleksandrs},
+                    journal={arXiv preprint arXiv:1811.11881},
+                    year={2018}
+                }
+                 </code>
+                 </pre>
+                </div>
+                </div>
+
                  (C11)  "Stability of Linear Structural Equation Model of Causal Inference"<br/>
                   Joint Work with Navin Goyal and Anand Louis <br/>
                   <strong> The 35th Conference on Uncertainty in Artificial Intelligence (UAI), 2019 </strong><br/>
@@ -794,60 +845,7 @@
 
                 </li>
                                 
-                <li>
-					"Adversarial Bandits with Knapsacks"<br/>
-                    Joint Work with Nicole Immorlica, Robert Schapire, Aleksandrs Slivkins <br/>
-                  <strong> INFORMS Workshop on Market Design, 2019</strong><br/>
-                  <p>
-                  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#advBwK" aria-expanded="false" aria-controls="advBwK">
-                    Abstract
-                  </button>
-
-				  <a href="https://arxiv.org/pdf/1811.11881.pdf" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none;text-shadow:none">Paper</a>
-                 <!-- 
-                  <button class="btn btn-warning btn-sm" type="button" data-toggle="collapse" data-target="#advBwKBib" aria-expanded="false" aria-controls="advBwKBib">
-                    Bibtex
-                  </button>
-                  -->
-                  <a href="posters/poster_AdvBwK.pdf" target="_blank" class="btn btn-danger btn-sm" style="text-decoration:none;text-shadow:none">Poster</a>
-                  </p>
-                   <div class="collapse" id="advBwK">
-                    <div class="card card-block" style="width:70%; margin:0 auto;">
-                    <p>
-                      <strong>Abstract:</strong> 
-                      We consider Bandits with Knapsacks (henceforth, BwK), a general model for multi-armed bandits under supply/budget constraints. In particular, a bandit algorithm needs to solve a well-known knapsack
-                      problem: find an optimal packing of items into a limited-size knapsack. The BwK problem is a common generalization of numerous motivating examples, which range from dynamic pricing to repeated auctions
-                      to dynamic ad allocation to network routing and scheduling. While the prior work on BwK focused on the stochastic version, we pioneer the other extreme in which the outcomes can be chosen adversarially. This
-                      is a considerably harder problem, compared to both the stochastic version and the “classic” adversarial bandits, in that regret minimization is no longer feasible. Instead, the objective is to minimize the
-                      competitive ratio: the ratio of the benchmark reward to algorithm’s reward. We design an algorithm with competitive ratio O(log T) relative to the best fixed distribution over
-                      actions, where T is the time horizon; we also prove a matching lower bound. The key conceptual contribution is a new perspective on the stochastic version of the problem. We suggest a new algorithm
-                      for the stochastic version, which builds on the framework of regret minimization in repeated games and admits a substantially simpler analysis compared to prior work. We then analyze this algorithm for the
-                      adversarial version, and use it as a subroutine to solve the latter                    
-                      <br/><br/>
-                    <strong>Keywords:</strong> Online Learning; Machine Learning; Randomized Algorithms; Theory of Computation
-                  </p>
-                  </div>
-                    <br/><br/>
-                  </div>
-
-
-                <div class="collapse" id="advBwKBib">
-                <div class="card card-block" style="width:80%; margin:0 auto;">
-                 <pre style="text-align:left">
-                 <code>
-                 @article{ISSS18,
-                    title={Adversarial Bandits with Knapsacks},
-                    author={Immorlica, Nicole and Sankararaman, Karthik Abinav and Schapire, Robert and Slivkins, Aleksandrs},
-                    journal={arXiv preprint arXiv:1811.11881},
-                    year={2018}
-                }
-                 </code>
-                 </pre>
-                </div>
-                </div>
-
-				</li>
-
+                
                   <li>
                     "Semi-Bandit Feedback: A survey of results (2015)" <br/>
                     <a href="surveySemiBandit.pdf" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none;text-shadow:none"> PDF </a><br/><br/>
