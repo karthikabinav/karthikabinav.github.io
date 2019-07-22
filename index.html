@@ -871,23 +871,33 @@
                 <div class="card card-block" style="width:70%; margin:0 auto;">
                 <p>
                     <strong>Abstract:</strong> 
-                    We consider the numerical stability of the parameter recovery problem in Linear Structural
-                    Equation Model (LSEM) of causal inference. A long line of work starting from Wright (1920) has focused
-                    on understanding which sub-classes of LSEM allow for efficient parameter recovery. Despite decades
-                    of study, this question is not yet fully resolved. The goal of this paper is complementary to this line of
-                    work; we want to understand the stability of the recovery problem in the cases when efficient recovery is
-                    possible. Numerical stability of Pearl’s notion of causality was first studied in Schulman and Srivastava
-                    (2016) using the concept of condition number where they provide ill-conditioned examples. In this work,
-                    we provide a condition number analysis for the LSEM. First we prove that under a sufficient condition,
-                    for a certain sub-class of LSEM that are bow-free (Brito and Pearl (2002)), the parameter recovery is
-                    stable. We further prove that randomly chosen input parameters for this family satisfy the condition with a
-                    substantial probability. Hence for this family, on a large subset of parameter space, recovery is numerically
-                    stable. Next we construct an example of LSEM on four vertices with unbounded condition number. We
-                    then corroborate our theoretical findings via simulations as well as real-world experiments for a sociology
-                    application. Finally, we provide a general heuristic for estimating the condition number of any LSEM
-                    instance.
+                    One of the goals of Artificial Intelligence (AI) is to enable multiple agents to interact, co-ordinate 
+                    and compete with each other to realize various goals. Typically, this is achieved via a system which 
+                    acts as a mediator to control the agents' behavior via incentives. Such systems are ubiquitous and 
+                    include online systems for shopping (e.g., Amazon), ride-sharing (e.g., Uber, Lyft) and Internet 
+                    labor markets (e.g., Mechanical Turk). The main algorithmic challenge in such systems is to ensure 
+                    that they can operate under a variety of informational constraints such as uncertainty in the input, 
+                    committing to actions based on partial information or being unaffected by noisy input. The mathematical 
+                    framework used to study such systems are broadly called sequential decision makin} problems where the 
+                    algorithm does not receive the entire input at once; it obtains parts of the input by interacting 
+                    (also called "actions") with the environment. 
+
+                    In this thesis, we answer the question, under what informational constraints can we design efficient 
+                    algorithms for sequential decision making problems. 
+
+                    The first part of the thesis deals with the Online Matching problem. Here, the algorithm deals with 
+                    two prominent constraints: uncertainty in the input and choice of actions being restricted by a 
+                    combinatorial constraint. We design several new algorithms for many variants of this problem and 
+                    provide provable guarantees. We also show their efficacy on the ride-share application using a 
+                    real-world dataset. In the second part of the thesis, we consider the Multi-armed bandit problem 
+                    with additional informational constraints. In this setting, the algorithm does not receive the 
+                    entire input and needs to make decisions based on partial observations. Additionally, the set of 
+                    possible actions is controlled by global resource constraints that bind across time. We design 
+                    new algorithms for multiple variants of this problem that are worst-case optimal. We provide a 
+                    general reduction framework to the classic multi-armed bandits problem without any constraints. 
+                    We complement some of the results with preliminary numerical experiments. 
                     <br/><br/>
-                    <strong>Keywords:</strong> Causal Inference; Machine Learning; Robust Algorithms 
+                    <strong>Keywords:</strong> Online Matching; Multi-armed Bandits; Machine Learning; Randomized Algorithms; Theory of Computing
                 </p>
                 </div>
                 <br/><br/>
