@@ -71,8 +71,31 @@
 								in both foundations and applications of problems that broadly fall in these domains. 
                                 I am especially interested in research that spans the full spectrum of theory to practice (i.e., theory informing practice and applications informing theory).<br/>
                                 
-                                My current focus is on robust decision making under uncertainty which crops up in areas such as computational economics and machine learning. Representative recent problems include
-                                Sequential Decision Making, Online Matching Markets, Multi-armed Bandits and Causality.<br/><br/>
+                                My current focus is on foundations of robust decision making and its applications to rideshare and human computation. This encompasses topics in optimization,
+                                online machine learning and causal inference. <br/>
+                               
+                                <br/>
+                                Algorithmic decision making is ubiquitous in modern society; it dictates how we travel, what we spend our money, attention and time on among others. With algorithms playing such a key role, we want them
+                                to work for everybody in every scenario; formally this translates to multiple models of the environment and objective functions. Often we want the same (or with minimal modifications) 
+                                algorithm to be "robust" in the sense that they work with multiple constraints seemlessly; sometimes the algorithm need not even know which of these environments it is working in! 
+                                Some aspects of robustness my research focusses on are as follows. These
+                                questions are motivated and applied in the context of applications such as rideshare and human computation. <br/> <br/>
+
+                                <li> Fairness-Efficiency Tradeoff: Here the goal is to design the same algorithm that provides the optimal tradeoff between any given fairness metric (e.g., group level fairness)
+                                  while also maintaining worst-case global efficiency guarantees.</li><br/>
+
+                                <li> Easy v/s Hard inputs: The goal is to design a single algorithm that performs very well when the given environment/instance is "easy" while still
+                                  achieving optimal guarantees in the "hard" scenarios. The most common notion of "easy"  and "hard" environments is that the input is obtained as a sample
+                                  from a distribution  in the easy case and that an adaptive adversary who is strategic to the choice the algorithm makes provides the input in the hard case. 
+                                  Easy v/s Hard distinction also refers to fine-grained analysis of algorithms for a given modelling of the input (e.g., stochastic or adversarial). 
+                                </li><br/>
+
+                                <li> Scarce v/s Infinite Data: The goal is to answer when can machine learning algorithms that are designed with the assumption that we have sufficient data also provably work
+                                  well when we have limited data? For instance, provable causal inference algorithms assume that we have infinite correlation data at our disposal. While
+                                  this assumption might apriori be reasonable in some applications, in some other applications this is far from reality. 
+                                  Collecting large enough correlation samples can be expensive, time-consuming and sometimes impossible. Thus, it is important to understand when
+                                  algorithms designed for the infinite data regime also work in the face of limited data and/or design new algorithms that work well with limited data. </li> <br/>
+                                <br/>
                                 
                                 I am always open to working on projects tied to other application areas which require principled algorithmic approaches.
                                 Feel free to contact me!
