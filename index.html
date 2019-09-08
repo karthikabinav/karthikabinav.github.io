@@ -60,9 +60,10 @@
 								<h2><strong>Karthik Abinav Sankararaman*</strong></h2>
                             </header>
 								
-                            I recently finished my PhD at the Department of Computer Science at <a href="www.cs.umd.edu" target="_blank">University of Maryland, College Park</a>
+                            I am currently a research scientist at Facebook. Previously, I finished my PhD at the Department of Computer Science at <a href="www.cs.umd.edu" target="_blank">University of Maryland, College Park</a>
                                 (I also received an M.S. degree from the same department).
                                 I was fortunate to be advised by <a href="http://www.cs.umd.edu/~srin" target="_blank">Aravind Srinivasan</a> and also closely work/mentored by <a href="collab.html" target="_blank">these</a> awesome researchers.
+                                Even before that, I obtained a B.Tech (Hons), with a major in Computer Science and a minor in Operations Research, from <a href="www.cs.iitm.ac.in" target="_blank">Indian Institute of Technology, Madras</a>. My <a href="http://abishek90.github.io/" target="_blank">brother</a> and I spent our childhood days in the beautiful city of Bangalore, India.
                         </div>        
 						<div class="12u">
 
@@ -72,46 +73,48 @@
                                 I am especially interested in research that spans the full spectrum of theory to practice (i.e., theory informing practice and applications informing theory).<br/>
                                 
                                 My current focus is on foundations of robust decision making and its applications to rideshare and human computation. This encompasses topics in optimization,
-                                online machine learning and causal inference. <br/>
+                                online machine learning, causal inference and theoretical computer science. <br/>
+                                I am always open to working on projects tied to other application areas (especially those with a human component) which require principled algorithmic approaches.
+                                Feel free to contact me! <br/>
                                
                                 <br/>
                                 Algorithmic decision making is ubiquitous in modern society; it dictates how we travel, what we spend our money, attention and time on, where we eat among others. With algorithms playing such a key role, we want them
                                 to work for everybody in every scenario; formally this translates to algorithm receiving inputs from multiple models of the environment and optimizing different objective functions. Often we want the same (or with minimal modifications) 
                                 algorithm to be "robust" in the sense that they work with multiple constraints seemlessly; sometimes the algorithm need not even know which of these environments it is working in! 
-                                Some aspects of robustness my research focusses on are as follows. These
-                                questions are motivated and applied in the context of applications such as rideshare and human computation. <br/> <br/>
-
-                                <li>Realtime v/s Offline Data: Compared to traditional algorithm design, modern applications require algorithms that operate on real-time data.
-                                  The input is given as a sequence (possibly adapting to the previous decisions made by the algorithm) and the goal of the algorithm is to be 
-                                  comparably good to an algorithm that received the entire data at once before making any decisions. Often there are additional constraints 
-                                  (e.g., fairness-efficiency tradeoff below) which further make the task difficult. This class of problems are what is commonly called as online
+                                Some aspects of robustness my research focusses on are as follows.  <br/> <br/>
+                                
+                                <div style="align:left">
+                                  <li><u><strong>Realtime v/s Offline Data</u></strong>: Compared to traditional algorithm design, modern applications require algorithms that operate on real-time data.
+                                  The input is given as a sequence (possibly adapting to the previous decisions made by the algorithm) and the performance of the algorithm 
+                                  is compared against an algorithm that received the entire data at once before making any decisions; we want the performance to comparably good 
+                                  (often measured using regret or competitive ratio). Often there are additional constraints 
+                                  (e.g., fairness-efficiency tradeoff below, limited supply of goods, avoiding recency bias) which further make the task difficult. 
+                                  This class of problems are what is commonly called as online
                                   machine learning. </li> <br/>
 
-                                <li> Fairness-Efficiency Tradeoff: Here the goal is to design the same algorithm that provides the optimal tradeoff between any given fairness metric (e.g., group level fairness)
-                                  while also maintaining worst-case global efficiency guarantees.</li><br/>
+                                <li><u><strong>Fairness-Efficiency Tradeoff</u></strong>: The goal is to design the same algorithm that provides the optimal tradeoff between any given fairness metric (e.g., group level fairness)
+                                  while also maintaining worst-case global efficiency guarantees. One example of fairness is to ensure that the algorithm does not amplify existing societal biases
+                                 in the quest to maximize utility. However, fairness issues can also broadly manifest in other scenarios where we want to provide "equal service for equal requests".
+                                </li><br/>
 
-                                <li> Easy v/s Hard inputs: The goal is to design a single algorithm that performs very well when the given environment/instance is "easy" while still
+                                <li> <u><strong>Easy v/s Hard inputs</u></strong>: The goal is to design a single algorithm that performs very well when the given environment/instance is "easy" while still
                                   achieving optimal guarantees in the "hard" scenarios. The most common notion of "easy"  and "hard" environments is that the input is obtained as a sample
-                                  from a distribution  in the easy case and that an adaptive adversary who is strategic to the choice the algorithm makes provides the input in the hard case. 
+                                  from a distribution (i.e., i.i.d. assumption in statistical machine learning) in the easy case and that an adaptive adversary who is strategic to the choice the algorithm makes provides the input (i.e., adversarial ML) in the hard case. 
                                   Easy v/s Hard distinction also refers to fine-grained analysis of algorithms for a given modelling of the input (e.g., stochastic or adversarial). 
                                 </li><br/>
 
-                                <li> Scarce v/s Infinite Data: The goal is to answer when can machine learning algorithms that are designed with the assumption that we have sufficient data also provably work
-                                  well when we have limited data? For instance, provable causal inference algorithms assume that we have infinite correlation data at our disposal. While
+                                <li> <u><strong>Scarce v/s Infinite Data</u></strong>: The goal is to answer when can machine learning algorithms that are designed with the assumption that we have sufficient data also provably work
+                                  well when we have limited data? For example, provable causal inference algorithms assume that we have infinite correlation data at our disposal. While
                                   this assumption might apriori be reasonable in some applications, in some other applications this is far from reality. 
                                   Collecting large enough correlation samples can be expensive, time-consuming and sometimes impossible. Thus, it is important to understand when
-                                  algorithms designed for the infinite data regime also work in the face of limited data and/or design new algorithms that work well with limited data. </li> <br/>
+                                  algorithms designed for the infinite data regime also work in the face of limited data and/or design new algorithms that work well with limited data.                                 </li> <br/>
+                                </div>
+
                                 <br/>
-                                
-                                I am always open to working on projects tied to other application areas (especially those with a human component) which require principled algorithmic approaches.
-                                Feel free to contact me!
-                                <br/><br/>
 
-								 Previously, I obtained a B.Tech (Hons), with a major in Computer Science and a minor in Operations Research, from <a href="www.cs.iitm.ac.in" target="_blank">Indian Institute of Technology, Madras</a>. My <a href="http://abishek90.github.io/" target="_blank">brother</a> and I spent our childhood days in the beautiful city of Bangalore, India.
-                                 <br/><br/>
-                                 I like reading (through non-fiction books), discussing (with friends) and understanding topics involving Politics, Spirituality, Cognitive Psychology, Philosophy and Communicable Diseases (particularly HIV). Recently, I was introduced to the sport of Bouldering and dabble with it from time-to-time. <br/><br/>
+                                I like reading (through non-fiction books), discussing (with friends) and understanding topics involving Politics, Spirituality, Cognitive Psychology, Philosophy and Communicable Diseases (particularly HIV). Recently, I was introduced to the sport of Bouldering and dabble with it from time-to-time. <br/><br/>
 
-									<br/><br/>
+									<br/>
 								 
                                     *I usually go by either Karthik or Abinav. If you want to use my last name, please see the syllables for help.<br/> (Syllables: Kar/thik A/bi/nav San/kar/a/ra/man) <br/><br/>
                                     
@@ -1166,7 +1169,7 @@
 					<footer>
 						<ul id="copyright">
 							<li>&copy; Karthik A Sankararaman All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					<li>Last Updated: August 2019</li>
+					<li>Last Updated: September 2019</li>
 						</ul>
 					</footer>
 				</article>
