@@ -163,9 +163,71 @@
 				<article id="research">
 
 				<h2>Conference Publications</h2>
-                <strong>(In (almost) all papers, the authors chose the convention of alphabetical order by last names)</strong><br/><br/>
+                  <strong>(In (almost) all papers, the authors chose the convention of alphabetical order by last names)</strong><br/><br/>
+                  (C16) "The Impact of Neural Network Overparameterization on Gradient Confusion and Stochastic Gradient Descent" <br/>
+                  Joint Work with Soham De, Zheng Xu, Ronny Huang, Tom Goldstein <br/>
+                  <strong> The 37th International Conference on Machine Learning (ICML), 2020  </strong><br/>
+
+                  <strong> NeurIPS Workshop on Integration of Deep Learning Theories, 2018</strong><br/>
+                  <p>
+                  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#SGD" aria-expanded="false" aria-controls="SGD">
+                    Abstract
+                  </button>
+
+				  <a href="https://arxiv.org/pdf/1904.06963.pdf" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none;text-shadow:none">Paper</a>
+                  <a href="posters/poster_SGD.pdf" target="_blank" class="btn btn-danger btn-sm" style="text-decoration:none;text-shadow:none">Poster</a>
+                  </p>
+                   <div class="collapse" id="SGD">
+                    <div class="card card-block" style="width:70%; margin:0 auto;">
+                    <p>
+                      <strong>Abstract:</strong> 
+                      The goal of this paper is to study why stochastic gradient descent (SGD) is efficient for neural networks, and how neural net design affects SGD.
+                      In particular, we investigate how overparameterization -- an increase in the number of parameters beyond the number of training data -- affects the dynamics of SGD.
+                      
+                      We introduce a simple concept called gradient confusion.  When confusion is high, stochastic gradients produced by different data
+                      samples may be negatively correlated, slowing down convergence.
+
+                      But when gradient confusion is low, we show that SGD has better convergence properties than predicted by classical theory.
+                      Using theoretical and empirical results, we study how overparameterization affects gradient confusion, and thus the
+                      convergence of SGD, on linear models and neural networks. We show that increasing the number of parameters of linear
+                      models or increasing the width of neural networks leads to lower gradient confusion, and thus faster
+                      and easier model training. We further show how overparameterization by increasing the depth of neural
+                      networks results in higher gradient confusion, making deeper models harder to train. Finally, we observe
+                      empirically that batch normalization and skip connections reduce gradient confusion, which helps reduce the training
+                      burden of deep networks.
+                      <br/><br/>
+                    <strong>Keywords:</strong> Deep Learning; Machine Learning; Optimization; Theory of Computation
+                  </p>
+                  </div>
+                    <br/><br/>
+                  </div>
+                  (C15) "Matching Algorithms for Blood Donation" <br/>
+                  Joint Work with Duncan McElfresh (primary author), Sergey Pupyrev, Christian Kroer, John Dickerson, Eric Sodomka, Zack Chauvin and Neil Dexter <br/>
+                    <strong>The 21st ACM Conference on Economics and Computation (EC) 2020</strong> <br/>
+                  <p>
+                  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#Blood" aria-expanded="false" aria-controls="Blood">
+                    Abstract
+                  </button>
+                  </p>
+                   <div class="collapse" id="Blood">
+                    <div class="card card-block" style="width:70%; margin:0 auto;">
+                    <p>
+                      <strong>Abstract:</strong> 
+                      Managing perishable inventory, such as blood stock awaiting use by patients in need, has been a topic of research for decades. This has been investigated across several disciplines: medical and social scientists have investigated \emph{who} donates blood, \emph{how frequently}, and \emph{why}; management science researchers have long studied the blood supply chain from a logistical perspective.
+                      Yet global demand for blood still far exceeds supply, and unmet need is greatest in low- and middle-income countries. Both academics and policy experts suggest that large-scale coordination is necessary to alleviate demand for donor blood. 
+                      We conduct the first large-scale algorithmic matching of blood donors with donation opportunities, using  matching and machine learning. Using the recently-deployed Facebook Blood Donation tool, we conduct the first large-scale algorithmic matching of blood donors with donation opportunities.
+                      In both simulations and real experiments we match potential donors with opportunities, guided by a machine learning model trained on prior observations of donor behavior. While measuring actual donation rates remains a challenge, we measure \emph{donor action} (i.e., calling a blood bank or making an appointment) as a proxy for actual donation.
+                      Simulations suggest that even a simple matching strategy can increase donor action rate by $10$-$15\%$; a pilot experiment with real donors finds a slightly smaller increase of roughly $5\%$. While overall action rates remain low, even this modest increase among donors in a global network corresponds to \emph{hundreds of thousands} of more potential donors taking action toward donation.
+                      Further, observing donor action on a social network can shed light onto donor behavior and response to incentives. Our initial findings align with several observations made in the medical and social science literature regarding donor behavior.
+                      <br/><br/>
+                    <strong>Keywords:</strong> Matching Algorithms; Machine Learning; Applications of Economics and Computation
+                  </p>
+                  </div>
+                    <br/><br/>
+                  </div>
+
                     (C14) "Balancing the Tradeoff between Profit and Fairness in Rideshare Platforms during High-Demand Hours" <br/>
-                    Joint Work with Vedant Nanda, Pan Xu, John Dickerson, Aravind Srinivasan <br/>
+                    Joint Work with Vedant Nanda (primary author), Pan Xu, John Dickerson, Aravind Srinivasan <br/>
                     <strong>The 34th AAAI Conference on Artificial Intelligence (AAAI), 2020</strong> <br/>
                     <strong>Extended Abstract in The 3rd AAAI/ACM Conference on Artificial Intelligence, Ethics and Society (AIES), 2020 (Oral Presentation)</strong> <br/>
                   <p>
@@ -978,42 +1040,7 @@
                  <br/>
 
                 <h3>Workshop Papers, Manuscripts, Theses and Surveys</h3>
-                  (W1) "The Impact of Neural Network Overparameterization on Gradient Confusion and Stochastic Gradient Descent" <br/>
-                  Joint Work with Soham De, Zheng Xu, Ronny Huang, Tom Goldstein <br/>
-                  <strong> NeurIPS Workshop on Integration of Deep Learning Theories, 2018</strong><br/>
-                  <p>
-                  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#SGD" aria-expanded="false" aria-controls="SGD">
-                    Abstract
-                  </button>
-
-				  <a href="https://arxiv.org/pdf/1904.06963.pdf" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none;text-shadow:none">Paper</a>
-                  <a href="posters/poster_SGD.pdf" target="_blank" class="btn btn-danger btn-sm" style="text-decoration:none;text-shadow:none">Poster</a>
-                  </p>
-                   <div class="collapse" id="SGD">
-                    <div class="card card-block" style="width:70%; margin:0 auto;">
-                    <p>
-                      <strong>Abstract:</strong> 
-                      The goal of this paper is to study why stochastic gradient descent (SGD) is efficient for neural networks, and how neural net design affects SGD.
-                      In particular, we investigate how overparameterization -- an increase in the number of parameters beyond the number of training data -- affects the dynamics of SGD.
-                      
-                      We introduce a simple concept called gradient confusion.  When confusion is high, stochastic gradients produced by different data
-                      samples may be negatively correlated, slowing down convergence.
-
-                      But when gradient confusion is low, we show that SGD has better convergence properties than predicted by classical theory.
-                      Using theoretical and empirical results, we study how overparameterization affects gradient confusion, and thus the
-                      convergence of SGD, on linear models and neural networks. We show that increasing the number of parameters of linear
-                      models or increasing the width of neural networks leads to lower gradient confusion, and thus faster
-                      and easier model training. We further show how overparameterization by increasing the depth of neural
-                      networks results in higher gradient confusion, making deeper models harder to train. Finally, we observe
-                      empirically that batch normalization and skip connections reduce gradient confusion, which helps reduce the training
-                      burden of deep networks.
-                      <br/><br/>
-                    <strong>Keywords:</strong> Deep Learning; Machine Learning; Optimization; Theory of Computation
-                  </p>
-                  </div>
-                    <br/><br/>
-                  </div>
-                  
+                                    
                   (W2) "Advances in Bandits with Knapsacks" <br/>
                   Joint Work with Alex Slivkins <br/>
                   <p>
@@ -1317,7 +1344,7 @@
 					<footer>
 						<ul id="copyright">
 							<li>&copy; Karthik A Sankararaman All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					<li>Last Updated: December 2019</li>
+					<li>Last Updated: June 2020</li>
 						</ul>
 					</footer>
 				</article>
