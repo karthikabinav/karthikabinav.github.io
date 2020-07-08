@@ -1067,6 +1067,36 @@
                   </div>
                     <br/><br/>
                   </div>
+                  
+                  (W2) "Dominate or Delete: Decentralized Competing Bandits with Uniform Valuation" <br/>
+                  Joint Work with Abishek Sankararaman and Soumya Basu <br/>
+                  <p>
+                  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#matchingBandit" aria-expanded="false" aria-controls="matchingBandit">
+                    Abstract
+                  </button>
+
+				  <a href="https://arxiv.org/pdf/2006.15166.pdf" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none;text-shadow:none">Paper</a>
+                  </p>
+                   <div class="collapse" id="matchingBandit">
+                    <div class="card card-block" style="width:70%; margin:0 auto;">
+                    <p>
+                      <strong>Abstract:</strong> 
+                      We study regret minimization problems in a two-sided matching market where uniformly valued demand side agents (a.k.a. agents) continuously
+                      compete for getting matched with supply side agents (a.k.a. arms) with unknown and heterogeneous valuations. Such markets abstract online
+                      matching platforms (for e.g. UpWork, TaskRabbit) and falls within the purview of matching bandit models introduced in Liu et al.
+                      The uniform valuation in the demand side admits a unique stable matching equilibrium in the system. We design the first decentralized algorithm
+                      for matching bandits under uniform valuation that does not require any knowledge of reward gaps or time horizon, and thus partially resolves
+                      an open question. It works in phases of exponentially increasing length. In each phase i, an agent first deletes dominated arms -- the arms preferred
+                      by agents ranked higher than itself. Deletion follows dynamic explore-exploit using UCB algorithm on the remaining arms for 2i rounds.
+                      Finally, the preferred arm is broadcast in a decentralized fashion to other agents through pure exploitation in (N−1)K rounds with N agents and K arms.
+                      Comparing the obtained reward with respect to the unique stable matching, we show that it achieves O(log(T)/Δ^2) regret in T rounds,
+                      where Δ is the minimum gap across all agents and arms. We provide a (orderwise) matching regret lower-bound.
+                      <br/><br/>
+                    <strong>Keywords:</strong> Machine Learning; Reinforcement Learning; Theory of Computation; Economics and Computation; Matching Markets
+                  </p>
+                  </div>
+                    <br/><br/>
+                  </div>
 
                   (Thesis 2) "Sequential Decision Making with Limited Resources"<br/>
                   <strong> PhD Thesis 2019, University of Maryland, College Park </strong><br/>
@@ -1344,7 +1374,7 @@
 					<footer>
 						<ul id="copyright">
 							<li>&copy; Karthik A Sankararaman All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					<li>Last Updated: June 2020</li>
+					<li>Last Updated: July 2020</li>
 						</ul>
 					</footer>
 				</article>
