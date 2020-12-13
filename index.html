@@ -70,52 +70,14 @@
 						<div class="12u">
 
 
-								My research interests broadly span the intersection of Algorithms, Machine Learning and Operations Research. I am interested
+								My research interests broadly spans Algorithms, Machine Learning, Data Mining, Market Design and Operations Researh. I am interested
 								in both foundations and applications of problems that broadly fall in these domains. 
                                 I am especially interested in research that spans the full spectrum of theory to practice (i.e., theory informing practice and applications informing theory).<br/>
                                 <br/>
                                 Apart from research, I also contribute to the academic (in theoretical computer science and machine learning) community via reviewing/PC service for
                                 conferences such as NeurIPS, ICML, AIStats, ICLR, AAAI, UAI, SODA, ... which I find extremely fulfilling and fun to do.<br/>
                                 <br/>
-                                My current focus is to design foundational algorithms and systems for robust decision making under uncertainty, a topic 
-                                that is increasingly becoming central in many personalized platform markets
-                                (such as ride-share, ads and human computation).
-                                This encompasses topics in probability, optimization, matching-based market design,
-                                online machine learning, causal inference and theoretical computer science. <br/>
-                               
-                                <br/>
-                                Algorithmic decision making is ubiquitous in modern society; it dictates how we travel, what we spend our money, attention and time on, where we eat among others. With algorithms playing such a key role, we want them
-                                to work for everybody in every scenario; formally this translates to algorithm receiving inputs from multiple models of the environment and optimizing different objective functions. Often we want the same (or with minimal modifications) 
-                                algorithm to be "robust" in the sense that they work with multiple constraints seemlessly; sometimes the algorithm need not even know which of these environments it is working in! 
-                                Some aspects of robustness my research focusses on are as follows.  <br/> <br/>
                                 
-                                <div style="align:left">
-                                  <li><u><strong>Realtime v/s Offline Data</u></strong>: Compared to traditional algorithm design, modern applications require algorithms that operate on real-time data.
-                                  The input is given as a sequence (possibly adapting to the previous decisions made by the algorithm) and the performance of the algorithm 
-                                  is compared against an algorithm that received the entire data at once before making any decisions; we want the performance to comparably good 
-                                  (often measured using regret or competitive ratio). Often there are additional constraints 
-                                  (e.g., fairness-efficiency tradeoff below, limited supply of goods, avoiding recency bias) which further make the task difficult. 
-                                  This class of problems are what is commonly called as online
-                                  machine learning. </li> <br/>
-
-                                <li><u><strong>Fairness-Efficiency Tradeoff</u></strong>: The goal is to design the same algorithm that provides the optimal tradeoff between any given fairness metric (e.g., group level fairness)
-                                  while also maintaining worst-case global efficiency guarantees. One example of fairness is to ensure that the algorithm does not amplify existing societal biases
-                                 in the quest to maximize utility. However, fairness issues can also broadly manifest in other scenarios where we want to provide "equal service for equal requests".
-                                </li><br/>
-
-                                <li> <u><strong>Easy v/s Hard inputs</u></strong>: The goal is to design a single algorithm that performs very well when the given environment/instance is "easy" while still
-                                  achieving optimal guarantees in the "hard" scenarios. The most common notion of "easy"  and "hard" environments is that the input is obtained as a sample
-                                  from a distribution (i.e., i.i.d. assumption in statistical machine learning) in the easy case and that an adaptive adversary who is strategic to the choice the algorithm makes provides the input (i.e., adversarial ML) in the hard case. 
-                                  Easy v/s Hard distinction also refers to fine-grained analysis of algorithms for a given modelling of the input (e.g., stochastic or adversarial). 
-                                </li><br/>
-
-                                <li> <u><strong>Scarce v/s Infinite Data</u></strong>: The goal is to answer when can machine learning algorithms that are designed with the assumption that we have sufficient data also provably work
-                                  well when we have limited data? For example, provable causal inference algorithms assume that we have infinite correlation data at our disposal. While
-                                  this assumption might apriori be reasonable in some applications, in some other applications this is far from reality. 
-                                  Collecting large enough correlation samples can be expensive, time-consuming and sometimes impossible. Thus, it is important to understand when
-                                  algorithms designed for the infinite data regime also work in the face of limited data and/or design new algorithms that work well with limited data.                                 </li> <br/>
-                                </div>
-
                                 <br/>
 
                                     *I usually go by either Karthik or Abinav. If you want to use my last name, please see the syllables for help.<br/> (Syllables: Kar/thik A/bi/nav San/kar/a/ra/man) <br/><br/>
@@ -1032,6 +994,48 @@
 				  <a href="https://rdcu.be/b3OnZ" target="_blank" class="btn btn-info btn-sm" style="text-decoration:none;text-shadow:none">Paper</a>
                   <br/>
                  <br/>
+                 
+                 (J4) "Allocation Problems in Ride-Sharing Platforms: Online Matching with Offline Reusable Resources"<br/>
+                    Joint Work with John Dickerson, Aravind Srinivasan, Pan Xu<br/>
+				<strong>Transactions of Economics and Computation (TEAC), 2020</strong> <br/>
+                  <br/><br/>
+
+                    </p>
+                <div class="collapse" id="reusable">
+                <div class="card card-block" style="width:70%; margin:0 auto;">
+                <p>
+                    <strong>Abstract:</strong> 
+                    Bipartite matching markets pair agents on one side of a market with agents, items, or contracts on the opposing side. Prior work addresses online bipartite matching
+                    markets, where agents arrive over time and are dynamically matched to a known set of disposable resources. In this paper, we propose a new model, Online
+                    Matching with (offline) Reusable Resources under Known Adversarial Distributions (OM-RR-KAD), in which resources on the offline side are reusable instead of
+                    disposable; that is, once matched, resources become available again at some point in the future. We show that our model is tractable by presenting an LP-based
+                    adaptive algorithm that achieves an online competitive ratio of 1/2 − ε for any given ε > 0. We also show that no non-adaptive algorithm can achieve a ratio of
+                    1/2 + o(1) based on the same benchmark LP. Through a data-driven analysis on a massive openly-available dataset, we show our model is robust enough to capture
+                    the application of taxi dispatching service. We also present heuristics that perform well in practice.
+                    <br/><br/>
+                    <strong>Keywords:</strong> Randomized Algorithms; Online Algorithms; Artificial Intelligence; Applications
+
+
+                </p>
+                </div>
+                <br/><br/>
+                </div>
+                
+                <div class="collapse" id="reusableBib">
+                <div class="card card-block" style="width:80%; margin:0 auto;">
+                 <pre style="text-align:left">
+                 <code>
+                  @inproceedings{DSSX18a,
+                      title={Allocation problems in ride-sharing platforms: Online matching with offline reusable resources},
+                      author={Dickerson, John P and Sankararaman, Karthik A and Srinivasan, Aravind and Xu, Pan},
+                      booktitle={Proceedings of the 32nd AAAI Conference on Artificial Intelligence},
+                      year={2018}  
+                  }
+                 </code>
+                 </pre>
+                </div>
+                </div>
+
 
                 <h3>Workshop Papers, Manuscripts, Theses and Surveys</h3>
                                     
@@ -1403,7 +1407,7 @@
 					<footer>
 						<ul id="copyright">
 							<li>&copy; Karthik A Sankararaman All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					<li>Last Updated: September 2020</li>
+					<li>Last Updated: December 2020</li>
 						</ul>
 					</footer>
 				</article>
