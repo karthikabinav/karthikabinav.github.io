@@ -5662,11 +5662,7 @@
         and
         Surveys</h3>
       (W1)
-      "Advances
-      in
-      Bandits
-      with
-      Knapsacks"
+      "Bandits with Knapsacks beyond the Worst-Case Analysis"
       <br />
       Joint
       Work
@@ -5697,95 +5693,16 @@
                                                                                                                                                                                                                                                                                                                                                                                                       auto;">
           <p>
             <strong>Abstract:</strong>
-            ``Bandits
-            with
-            Knapsacks"
-            (BwK)
-            is
-            a
-            general
-            model
-            for
-            multi-armed
-            bandits
-            under
-            supply/budget
-            constraints.
-            While
-            worst-case
-            regret
-            bounds
-            for
-            BwK
-            are
-            well-understood,
-            we
-            focus
-            on
-            logarithmic
-            instance-dependent
-            regret
-            bounds.
-            We
-            largely
-            resolve
-            them
-            for
-            one
-            limited
-            resource
-            other
-            than
-            time,
-            and
-            for
-            known,
-            deterministic
-            resource
-            consumption.
-            We
-            also
-            bound
-            regret
-            within
-            a
-            given
-            round
-            (``simple
-            regret").
-            One
-            crucial
-            technique
-            analyzes
-            the
-            sum
-            of
-            the
-            confidence
-            terms
-            of
-            the
-            chosen
-            arms.
-            This
-            technique
-            allows
-            to
-            import
-            the
-            insights
-            from
-            prior
-            work
-            on
-            bandits
-            without
-            resources,
-            which
-            leads
-            to
-            several
-            extensions.
+            ``Bandits with Knapsacks" (BwK) is a general model for multi-armed bandits under supply/budget constraints.
+            While worst-case regret bounds for BwK are well-understood, we present three results that go beyond the
+            worst-case perspective.
+            First, we provide upper and lower bounds which amount to a full characterization for logarithmic,
+            instance-dependent regret rates.
+            Second, we consider ``simple regret" in BwK, which tracks algorithm's performance in a given round, and
+            prove that it is small in all but a few rounds.
+            Third, we provide a general template for extensions from bandits to BwK which takes advantage of some known
+            helpful structure, and apply this template to combinatorial semi-bandits and linear contextual bandits. Our
+            results build on the BwK algorithm from Agrawal & Devanur EC '14, providing new analyses thereof.
             <br /><br />
             <strong>Keywords:</strong>
             Machine
@@ -5800,15 +5717,7 @@
         <br /><br />
       </div>
       (W2)
-      "Dominate
-      or
-      Delete:
-      Decentralized
-      Competing
-      Bandits
-      with
-      Uniform
-      Valuation"
+      Beyond log^2(T) Regret for Decentralized Bandits in Matching Markets
       <br />
       Joint
       Work
@@ -5843,217 +5752,19 @@
                                                                                                                                                                                                                                                                                                                                                                                                                   auto;">
           <p>
             <strong>Abstract:</strong>
-            We
-            study
-            regret
-            minimization
-            problems
-            in
-            a
-            two-sided
-            matching
-            market
-            where
-            uniformly
-            valued
-            demand
-            side
-            agents
-            (a.k.a.
-            agents)
-            continuously
-            compete
-            for
-            getting
-            matched
-            with
-            supply
-            side
-            agents
-            (a.k.a.
-            arms)
-            with
-            unknown
-            and
-            heterogeneous
-            valuations.
-            Such
-            markets
-            abstract
-            online
-            matching
-            platforms
-            (for
-            e.g.
-            UpWork,
-            TaskRabbit)
-            and
-            falls
-            within
-            the
-            purview
-            of
-            matching
-            bandit
-            models
-            introduced
-            in
-            Liu
-            et
-            al.
-            The
-            uniform
-            valuation
-            in
-            the
-            demand
-            side
-            admits
-            a
-            unique
-            stable
-            matching
-            equilibrium
-            in
-            the
-            system.
-            We
-            design
-            the
-            first
-            decentralized
-            algorithm
-            for
-            matching
-            bandits
-            under
-            uniform
-            valuation
-            that
-            does
-            not
-            require
-            any
-            knowledge
-            of
-            reward
-            gaps
-            or
-            time
-            horizon,
-            and
-            thus
-            partially
-            resolves
-            an
-            open
-            question.
-            It
-            works
-            in
-            phases
-            of
-            exponentially
-            increasing
-            length.
-            In
-            each
-            phase
-            i,
-            an
-            agent
-            first
-            deletes
-            dominated
-            arms
-            --
-            the
-            arms
-            preferred
-            by
-            agents
-            ranked
-            higher
-            than
-            itself.
-            Deletion
-            follows
-            dynamic
-            explore-exploit
-            using
-            UCB
-            algorithm
-            on
-            the
-            remaining
-            arms
-            for
-            2i
-            rounds.
-            Finally,
-            the
-            preferred
-            arm
-            is
-            broadcast
-            in
-            a
-            decentralized
-            fashion
-            to
-            other
-            agents
-            through
-            pure
-            exploitation
-            in
-            (N−1)K
-            rounds
-            with
-            N
-            agents
-            and
-            K
-            arms.
-            Comparing
-            the
-            obtained
-            reward
-            with
-            respect
-            to
-            the
-            unique
-            stable
-            matching,
-            we
-            show
-            that
-            it
-            achieves
-            O(log(T)/Δ^2)
-            regret
-            in
-            T
-            rounds,
-            where
-            Δ
-            is
-            the
-            minimum
-            gap
-            across
-            all
-            agents
-            and
-            arms.
-            We
-            provide
-            a
-            (orderwise)
-            matching
-            regret
-            lower-bound.
+            We design decentralized algorithms for regret minimization in two sided matching markets with one-sided
+            bandit feedback that significantly improves upon the prior works. First, for general markets, for any
+            epsilon > 0, we design an algorithm that achieves a O(log^{1+epsilon}(T)) regret to
+            the agent-optimal stable matching, with unknown time horizon T, improving upon the O(log^{2}(T)) regret
+            achieved in prior work. Second, we provide the optimal $\Theta(\log(T))$ regret for markets
+            satisfying uniqueness consistency -- markets where leaving participants don't alter the original
+            stable matching. Previously, $\Theta(\log(T))$ regret was achievable in the much restricted serial
+            dictatorship setting, when all arms have the same preference over the agents. We propose a phase based
+            algorithm, where
+            in each phase, besides deleting the globally communicated dominated arms, the agents locally delete arms
+            with which they collide often. This local deletion is pivotal in breaking deadlocks arising from rank
+            heterogeneity of agents across arms. We further demonstrate superiority of our algorithm over existing works
+            through simulations.
             <br /><br />
             <strong>Keywords:</strong>
             Machine
@@ -6073,8 +5784,7 @@
         <br /><br />
       </div>
       (W3)
-      "Robust
-      Identifiability
+      "Robust Identifiability
       in
       Linear
       Structural
