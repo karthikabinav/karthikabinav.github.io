@@ -6065,6 +6065,64 @@
         <br /><br />
       </div>
 
+      (W3)
+      Improved Adaptive Algorithm for Scalable Active Learning with Weak Labeler
+      <br />
+      Joint
+      Work
+      with
+      Yifang Chen, Alessandro Lazaric, Matteo Pirotta, Dmytro Karamshuk, Qifan Wang, Karishma Mandyam, Sinong Wang, Han
+      Fang
+      <br />
+      <p>
+        <button
+          class="btn
+                                                                                                                                                                                                                                                                                                                                                                                                                  btn-primary
+                                                                                                                                                                                                                                                                                                                                                                                                                  btn-sm"
+          type="button" data-toggle="collapse" data-target="#ALwithFSL" aria-expanded="false" aria-controls="ALwithFSL">
+          Abstract
+        </button>
+        <a href="https://arxiv.org/abs/2211.02233.pdf" target="_blank"
+          class="btn
+                                                                                                                                                                                                                                                                                                                                                                                                                  btn-info
+                                                                                                                                                                                                                                                                                                                                                                                                                  btn-sm"
+          style="text-decoration:none;text-shadow:none">Paper</a>
+      </p>
+      <div class="collapse" id="ALwithFSL">
+        <div
+          class="card
+                                                                                                                                                                                                                                                                                                                                                                                                                  card-block"
+          style="width:70%;
+                                                                                                                                                                                                                                                                                                                                                                                                                  margin:0
+                                                                                                                                                                                                                                                                                                                                                                                                                  auto;">
+          <p>
+            <strong>Abstract:</strong>
+            Active learning with strong and weak labelers considers a practical setting where we have access to both
+            costly but accurate strong labelers and inaccurate but cheap predictions provided by weak labelers. We study
+            this problem in the streaming setting, where decisions must be taken \textit{online}. We design a novel
+            algorithmic template, Weak Labeler Active Cover (WL-AC), that is able to robustly leverage the lower quality
+            weak labelers to reduce the query complexity while retaining the desired level of accuracy. Prior active
+            learning algorithms with access to weak labelers learn a difference classifier which predicts where the weak
+            labels differ from strong labelers; this requires the strong assumption of realizability of the difference
+            classifier (Zhang and Chaudhuri,2015). WL-AC bypasses this \textit{realizability} assumption and thus is
+            applicable to many real-world scenarios such as random corrupted weak labels and high dimensional family of
+            difference classifiers (\textit{e.g.,} deep neural nets). Moreover, WL-AC cleverly trades off evaluating the
+            quality with full exploitation of weak labelers, which allows to convert any active learning strategy to one
+            that can leverage weak labelers. We provide an instantiation of this template that achieves the optimal
+            query complexity for any given weak labeler, without knowing its accuracy a-priori. Empirically, we propose
+            an instantiation of the WL-AC template that can be efficiently implemented for large-scale models
+            (\textit{e.g}., deep neural nets) and show its effectiveness on the corrupted-MNIST dataset by significantly
+            reducing the number of labels while keeping the same accuracy as in passive learning.
+            <br /><br />
+            <strong>Keywords:</strong>
+            Machine Learning;
+            Active Learning;
+            Zero/Few Shot Learning;
+          </p>
+        </div>
+        <br /><br />
+      </div>
+
       (Thesis
       2)
       "Sequential
@@ -7017,7 +7075,7 @@
           </li>
           <li>Last
             Updated:
-            July
+            December
             2022</li>
         </ul>
       </footer>
