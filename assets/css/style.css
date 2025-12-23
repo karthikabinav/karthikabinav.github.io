@@ -464,6 +464,10 @@ details[open] {
 .legacy-content strong {
   color: var(--accent);
 }
+.legacy-content .award-highlight {
+  color: var(--accent);
+  font-weight: 600;
+}
 .legacy-content .pub-body {
   color: var(--muted);
   flex: 1 1 0%;
