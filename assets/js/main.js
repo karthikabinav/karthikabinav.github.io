@@ -6,38 +6,53 @@ if (toggle && navLinks) {
   });
 }
 
-const collabLink = document.querySelector('.collab-trigger');
-const collabOverlay = document.getElementById('collab-overlay');
-const collabDialog = collabOverlay?.querySelector('.collab-dialog');
-const collabCloseButtons = collabOverlay?.querySelectorAll('[data-collab-close]');
+const overlays = [
+  {
+    triggerSelector: '.collab-trigger',
+    overlayId: 'collab-overlay',
+    closeAttr: 'data-collab-close',
+  },
+  {
+    triggerSelector: '.service-trigger',
+    overlayId: 'service-overlay',
+    closeAttr: 'data-service-close',
+  },
+];
 
-function openCollabOverlay(event) {
-  if (event) event.preventDefault();
-  if (!collabOverlay) return;
-  collabOverlay.classList.add('open');
-  collabOverlay.setAttribute('aria-hidden', 'false');
-  document.body.classList.add('overlay-active');
-}
+function wireOverlay({ triggerSelector, overlayId, closeAttr }) {
+  const trigger = document.querySelector(triggerSelector);
+  const overlay = document.getElementById(overlayId);
+  const dialog = overlay?.querySelector('.collab-dialog');
+  const closeButtons = overlay?.querySelectorAll(`[${closeAttr}]`);
 
-function closeCollabOverlay() {
-  if (!collabOverlay) return;
-  collabOverlay.classList.remove('open');
-  collabOverlay.setAttribute('aria-hidden', 'true');
-  document.body.classList.remove('overlay-active');
-}
-
-if (collabLink) {
-  collabLink.addEventListener('click', openCollabOverlay);
-}
-collabCloseButtons?.forEach((btn) => {
-  btn.addEventListener('click', closeCollabOverlay);
-});
-collabOverlay?.addEventListener('click', (e) => {
-  if (!collabDialog) return;
-  if (!collabDialog.contains(e.target)) {
-    closeCollabOverlay();
+  function openOverlay(event) {
+    if (event) event.preventDefault();
+    if (!overlay) return;
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('overlay-active');
   }
-});
+
+  function closeOverlay() {
+    if (!overlay) return;
+    overlay.classList.remove('open');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('overlay-active');
+  }
+
+  trigger?.addEventListener('click', openOverlay);
+  closeButtons?.forEach((btn) => btn.addEventListener('click', closeOverlay));
+  overlay?.addEventListener('click', (e) => {
+    if (!dialog) return;
+    if (!dialog.contains(e.target)) {
+      closeOverlay();
+    }
+  });
+
+  return { closeOverlay, overlay };
+}
+
+const wiredOverlays = overlays.map(wireOverlay);
 
 function wireCollapses(scope = document) {
   const buttons = scope.querySelectorAll('[data-toggle="collapse"]');
@@ -147,10 +162,10 @@ document.addEventListener('keydown', (e) => {
       const content = det.querySelector('.legacy-content');
       if (content) content.style.display = 'none';
     });
-    if (collabOverlay?.classList.contains('open')) {
-      closeCollabOverlay();
-    } else {
-      document.body.classList.remove('overlay-active');
+    const openOverlay = wiredOverlays.find(({ overlay }) => overlay?.classList.contains('open'));
+    if (openOverlay) {
+      openOverlay.closeOverlay();
     }
+    document.body.classList.remove('overlay-active');
   }
 });
