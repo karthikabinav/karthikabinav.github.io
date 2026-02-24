@@ -23,7 +23,7 @@ Canonical site URL: https://karthikabinavs.xyz/
 
 ## Structured metadata
 
-- JSON-LD `Person` and selected publication `ItemList` are embedded in the homepage head.
+- JSON-LD `ProfilePage`, `Person`, and full publication `ItemList` with `ScholarlyArticle` entries are embedded in the homepage head.
 
 ## Notes for agents
 
