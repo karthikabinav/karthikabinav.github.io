@@ -105,7 +105,7 @@ Source of this list: homepage publication template (inline for non-link-followin
    URL: http://www.sciencedirect.com/science/article/pii/S1474667015373778
 
 31. Attenuate Locally, Win Globally: Attenuation-based Frameworks for Online Stochastic Matching with Timeouts
-   URL: http://em.rdcu.be/wf/click?upn=lMZy1lernSJ7apc5DgYM8cde1i3x8V0hxHCeyV837AI-3D_wrfAgv39wJ1-2BLjjLUxBFa3Bkmbvfbo-2BkFt8vK-2B9JnNAVAvVMEgtYUvG4Jqk1mK-2BjUgKUhrNe3hhEiwrhGsHeFFdA7ZTLro-2FxxwbziNRkDLf3bVuorTqWzVACYwXOB1dDVDsYvvs6dD5czCWCSXBma01R3jRPA3AEFPfELJH5mvz06s78-2BBY46H8zi51YoZMClzO-2Fom-2B8cg1U4LUtL3qXVrpAF94j-2BFeeVbzO023tm3LhU9xWtqJzQ3nfWGt5zJxN3YRvxvhHjaQlF-2FThlPEJGg-3D-3D
+   URL: https://arxiv.org/abs/1804.08062
 
 32. Algorithms to approximate column-sparse packing problems
    URL: https://dl.acm.org/citation.cfm?id=3355400
