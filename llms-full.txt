@@ -1,0 +1,156 @@
+# karthikabinavs.xyz (LLMs full)
+
+Site owner: Karthik Abinav Sankararaman
+Canonical site URL: https://karthikabinavs.xyz/
+Short profile: LLMs, online learning, reinforcement learning, market design, and optimization.
+Source of this list: homepage publication template (inline for non-link-following agents).
+
+## Important pages
+
+- Home: https://karthikabinavs.xyz/
+- Publications section: https://karthikabinavs.xyz/#publications
+- Google Scholar: https://scholar.google.com/citations?user=uJ-Dhj4AAAAJ&hl=en
+- CV (PDF): https://karthikabinavs.xyz/CV_Karthik.pdf
+
+## Inline publication list
+
+1. Generalized Parallel Scaling with Interdependent Generations
+   URL: https://arxiv.org/abs/2510.01143
+
+2. Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation
+   URL: https://arxiv.org/abs/2505.12265
+
+3. Think Smarter not Harder: Adaptive Reasoning with Inference Aware Optimization
+   URL: https://arxiv.org/abs/2501.17974
+
+4. Promoting External and Internal Equities Under Ex-Ante/Ex-Post Metrics in Online Resource Allocation
+   URL: https://openreview.net/pdf?id=1OsRSrkFWl
+
+5. Effective Long-Context Scaling of Foundation Models
+   URL: https://arxiv.org/abs/2309.16039.pdf
+
+6. Rethinking Incentives in Recommender Systems: Are Monotone Rewards Always Beneficial?
+   URL: https://arxiv.org/pdf/2306.07893.pdf
+
+7. Contextual Bandits with Packing and Covering Constraints: A Modular Lagrangian Approach via Regression
+   URL: https://arxiv.org/pdf/2211.07484.pdf
+
+8. Allocation Problem in Remote Teleoperation: Online Matching with Offline Reusable Resources and Delayed Assignments
+   URL: https://u.cs.biu.ac.il/~krauss/data/articles/AAMAS23___Allocation_with_Reusable_Resources_for_Proceedings.pdf
+
+9. Robust Identifiability in Linear Structural Equation Models of Causal Inference
+   URL: https://arxiv.org/pdf/2007.06869.pdf
+
+10. Bandits with Knapsacks beyond the Worst-Case Analysis
+   URL: https://arxiv.org/pdf/2002.00253.pdf
+
+11. Beyond log^2(T) Regret for Decentralized Bandits in Matching Markets
+   URL: https://arxiv.org/abs/2103.07501.pdf
+
+12. Multi-armed Bandits with Cost Subsidy
+   URL: https://arxiv.org/pdf/2011.01488.pdf
+
+13. Dominate or Delete: Decentralized Competing Bandits with Uniform Valuation
+   URL: https://arxiv.org/pdf/2006.15166.pdf
+
+14. Stochastic bandits for multi-platform budget optimization in online advertising
+   URL: https://arxiv.org/pdf/2103.10246.pdf
+
+15. Analyzing the effect of neural network architecture on training performance
+   URL: https://arxiv.org/pdf/1904.06963.pdf
+
+16. Matching Algorithms for Blood Donation
+   URL: https://karthikabinavs.xyz/papers/EC20.pdf
+
+17. Balancing the Tradeoff between Profit and Fairness in Rideshare Platforms during High-Demand Hours
+   URL: https://arxiv.org/pdf/1912.08388.pdf
+
+18. Mix and Match: Markov Chains and Mixing Times in Matching for Rideshare
+   URL: https://arxiv.org/abs/1912.00225.pdf
+
+19. Adversarial Bandits with Knapsacks
+   URL: https://arxiv.org/pdf/1811.11881.pdf
+
+20. Stability of Linear Structural Equation Model of Causal Inference
+   URL: https://arxiv.org/pdf/1905.06836.pdf
+
+21. Online Resource Allocation with Matching Constraints
+   URL: https://karthikabinavs.xyz/papers/aamas19.pdf
+
+22. A Unified Approach to Online Matching with Conflict-Aware Constraints
+   URL: https://karthikabinavs.xyz/papers/AAAI192.pdf
+
+23. Balancing Relevance and Diversity in Online Matching via Submodularity
+   URL: https://arxiv.org/abs/1811.05100
+
+24. Assigning Tasks to Workers based on Historical Data: Online Matching with Two-sided Arrivals
+   URL: https://karthikabinavs.xyz/papers/aamas2018.pdf
+
+25. Combinatorial Semi-Bandits with Knapsacks
+   URL: https://arxiv.org/abs/1705.08110
+
+26. Allocation Problems in Ride-Sharing Platforms: Online Matching with Offline Reusable Resources
+   URL: https://arxiv.org/abs/1711.08345
+
+27. Algorithms to Approximate Column-Sparse Packing Programs
+   URL: https://arxiv.org/abs/1711.02724
+
+28. Attenuate Locally, Win Globally: Attenuation-based Frameworks for Online Stochastic Matching with Timeouts
+   URL: https://arxiv.org/abs/1804.08062
+
+29. New Algorithms, Better Bounds, and a Novel Model for Online Stochastic Matching
+   URL: https://arxiv.org/abs/1606.06395
+
+30. Ensuring Privacy in Location Based Services: An Approach Based on Opacity Enforcement
+   URL: http://www.sciencedirect.com/science/article/pii/S1474667015373778
+
+31. Attenuate Locally, Win Globally: Attenuation-based Frameworks for Online Stochastic Matching with Timeouts
+   URL: http://em.rdcu.be/wf/click?upn=lMZy1lernSJ7apc5DgYM8cde1i3x8V0hxHCeyV837AI-3D_wrfAgv39wJ1-2BLjjLUxBFa3Bkmbvfbo-2BkFt8vK-2B9JnNAVAvVMEgtYUvG4Jqk1mK-2BjUgKUhrNe3hhEiwrhGsHeFFdA7ZTLro-2FxxwbziNRkDLf3bVuorTqWzVACYwXOB1dDVDsYvvs6dD5czCWCSXBma01R3jRPA3AEFPfELJH5mvz06s78-2BBY46H8zi51YoZMClzO-2Fom-2B8cg1U4LUtL3qXVrpAF94j-2BFeeVbzO023tm3LhU9xWtqJzQ3nfWGt5zJxN3YRvxvhHjaQlF-2FThlPEJGg-3D-3D
+
+32. Algorithms to approximate column-sparse packing problems
+   URL: https://dl.acm.org/citation.cfm?id=3355400
+
+33. Online Stochastic Matching: New Algorithms and Bounds
+   URL: https://rdcu.be/b3OnZ
+
+34. Allocation Problems in Ride-Sharing Platforms: Online Matching with Offline Reusable Resources
+   URL: https://dl.acm.org/doi/abs/10.1145/3456756
+
+35. Online minimum matching with uniform metric and random arrivals
+   URL: https://arxiv.org/abs/2112.05247
+
+36. Adversarial Bandits with Knapsacks
+   URL: https://arxiv.org/abs/1811.11881
+
+37. Matching Algorithms for Blood Donation
+   URL: https://arxiv.org/pdf/2010.08142.pdf
+
+38. BayesFormer: Transformer with Uncertainty Estimation
+   URL: https://arxiv.org/pdf/2206.00826.pdf
+
+39. Improved Adaptive Algorithm for Scalable Active Learning with Weak Labeler
+   URL: https://arxiv.org/abs/2211.02233.pdf
+
+40. The Perfect Blend: Redefining RLHF with Mixture of Judges
+   URL: https://arxiv.org/pdf/2409.20370
+
+41. Preference Optimization with Multi-Sample Comparisons
+   URL: https://arxiv.org/abs/2410.12138
+
+42. Multi-IF: Benchmarking LLMs on Multi-Turn and Multilingual Instructions Following
+   URL: https://arxiv.org/abs/2410.15553
+
+43. Reinforcement Learning from User Feedback
+   URL: https://arxiv.org/abs/2505.14946v1
+
+44. Dual-Weighted Reinforcement Learning for Generative Preference Modeling
+   URL: https://arxiv.org/abs/2510.15242
+
+Total publication entries: 44
+
+## Notes for agents
+
+- Some entries represent conference/journal versions of related work and may appear similar.
+- If JavaScript rendering fails, this file is preferred over dynamic homepage sections.
+
+Last updated: 2026-02-24
