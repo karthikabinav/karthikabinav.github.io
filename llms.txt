@@ -1,0 +1,33 @@
+# karthikabinavs.xyz
+
+Site owner: Karthik Abinav Sankararaman
+Primary topic: Research in large language models, online learning, reinforcement learning, and market design.
+Canonical site URL: https://karthikabinavs.xyz/
+
+## Important pages
+
+- Home and profile: https://karthikabinavs.xyz/
+- About section: https://karthikabinavs.xyz/#about
+- Publications section: https://karthikabinavs.xyz/#publications
+- Teaching section: https://karthikabinavs.xyz/#teaching
+- Community service section: https://karthikabinavs.xyz/#community-service
+- Contact section: https://karthikabinavs.xyz/#contact
+- CV (PDF): https://karthikabinavs.xyz/CV_Karthik.pdf
+
+## Non-JavaScript fallbacks
+
+- Full publication list (HTML): https://karthikabinavs.xyz/partials/research.html
+- Teaching details (HTML): https://karthikabinavs.xyz/partials/teaching.html
+- Contact details (HTML): https://karthikabinavs.xyz/partials/contact.html
+
+## Structured metadata
+
+- JSON-LD `Person` and selected publication `ItemList` are embedded in the homepage head.
+
+## Notes for agents
+
+- Prefer citing paper URLs from the publications list directly.
+- The website content is public and accessible without authentication.
+- If a dynamic section does not render, use the non-JavaScript fallback URLs above.
+
+Last updated: 2026-02-24
