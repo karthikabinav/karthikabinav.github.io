@@ -10,6 +10,7 @@ Canonical site URL: https://karthikabinavs.xyz/
 - About section: https://karthikabinavs.xyz/#about
 - Publications section: https://karthikabinavs.xyz/#publications
 - Inline publication list for agents: https://karthikabinavs.xyz/llms-full.txt
+- Full research graph (JSON-LD): https://karthikabinavs.xyz/graph.json
 - Teaching section: https://karthikabinavs.xyz/#teaching
 - Community service section: https://karthikabinavs.xyz/#community-service
 - Contact section: https://karthikabinavs.xyz/#contact

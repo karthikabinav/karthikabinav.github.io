@@ -1,0 +1,917 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://karthikabinavs.xyz/#website",
+      "@type": "WebSite",
+      "description": "Research homepage for Karthik Abinav Sankararaman covering LLMs, online algorithms, and market design.",
+      "inLanguage": "en-US",
+      "name": "Karthik Abinav Sankararaman",
+      "publisher": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "url": "https://karthikabinavs.xyz/"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#profile-page",
+      "@type": "ProfilePage",
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#website"
+      },
+      "mainEntity": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "name": "Karthik Abinav Sankararaman",
+      "url": "https://karthikabinavs.xyz/"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#person",
+      "@type": "Person",
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Maryland"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Indian Institute of Technology Madras"
+        }
+      ],
+      "email": "mailto:karthikabinavs@gmail.com",
+      "image": "https://karthikabinavs.xyz/assets/images/profile.jpg",
+      "jobTitle": "Research Scientist",
+      "knowsAbout": [
+        "Large language models",
+        "Reinforcement learning",
+        "Online learning",
+        "Bandits",
+        "Market design",
+        "Optimization"
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://karthikabinavs.xyz/#profile-page"
+      },
+      "name": "Karthik Abinav Sankararaman",
+      "sameAs": [
+        "https://scholar.google.com/citations?user=uJ-Dhj4AAAAJ&hl=en",
+        "https://twitter.com/karthikabinav",
+        "https://www.linkedin.com/in/karthikabinav",
+        "https://github.com/karthikabinav",
+        "https://bitbucket.org/karthikabinav/"
+      ],
+      "subjectOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "url": "https://karthikabinavs.xyz/",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Meta Superintelligence Labs"
+      }
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#all-publications",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-1"
+          },
+          "position": 1
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-2"
+          },
+          "position": 2
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-3"
+          },
+          "position": 3
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-4"
+          },
+          "position": 4
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-5"
+          },
+          "position": 5
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-6"
+          },
+          "position": 6
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-7"
+          },
+          "position": 7
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-8"
+          },
+          "position": 8
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-9"
+          },
+          "position": 9
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-10"
+          },
+          "position": 10
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-11"
+          },
+          "position": 11
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-12"
+          },
+          "position": 12
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-13"
+          },
+          "position": 13
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-14"
+          },
+          "position": 14
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-15"
+          },
+          "position": 15
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-16"
+          },
+          "position": 16
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-17"
+          },
+          "position": 17
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-18"
+          },
+          "position": 18
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-19"
+          },
+          "position": 19
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-20"
+          },
+          "position": 20
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-21"
+          },
+          "position": 21
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-22"
+          },
+          "position": 22
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-23"
+          },
+          "position": 23
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-24"
+          },
+          "position": 24
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-25"
+          },
+          "position": 25
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-26"
+          },
+          "position": 26
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-27"
+          },
+          "position": 27
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-28"
+          },
+          "position": 28
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-29"
+          },
+          "position": 29
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-30"
+          },
+          "position": 30
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-31"
+          },
+          "position": 31
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-32"
+          },
+          "position": 32
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-33"
+          },
+          "position": 33
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-34"
+          },
+          "position": 34
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-35"
+          },
+          "position": 35
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-36"
+          },
+          "position": 36
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-37"
+          },
+          "position": 37
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-38"
+          },
+          "position": 38
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-39"
+          },
+          "position": 39
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-40"
+          },
+          "position": 40
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-41"
+          },
+          "position": 41
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-42"
+          },
+          "position": 42
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-43"
+          },
+          "position": 43
+        },
+        {
+          "@type": "ListItem",
+          "item": {
+            "@id": "https://karthikabinavs.xyz/#pub-44"
+          },
+          "position": 44
+        }
+      ],
+      "name": "Publications by Karthik Abinav Sankararaman",
+      "numberOfItems": 44,
+      "url": "https://karthikabinavs.xyz/#publications"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-1",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Generalized Parallel Scaling with Interdependent Generations",
+      "url": "https://arxiv.org/abs/2510.01143"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-2",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation",
+      "url": "https://arxiv.org/abs/2505.12265"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-3",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Think Smarter not Harder: Adaptive Reasoning with Inference Aware Optimization",
+      "url": "https://arxiv.org/abs/2501.17974"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-4",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Promoting External and Internal Equities Under Ex-Ante/Ex-Post Metrics in Online Resource Allocation",
+      "url": "https://openreview.net/pdf?id=1OsRSrkFWl"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-5",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Effective Long-Context Scaling of Foundation Models",
+      "url": "https://arxiv.org/abs/2309.16039.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-6",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Rethinking Incentives in Recommender Systems: Are Monotone Rewards Always Beneficial?",
+      "url": "https://arxiv.org/pdf/2306.07893.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-7",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Contextual Bandits with Packing and Covering Constraints: A Modular Lagrangian Approach via Regression",
+      "url": "https://arxiv.org/pdf/2211.07484.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-8",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Allocation Problem in Remote Teleoperation: Online Matching with Offline Reusable Resources and Delayed Assignments",
+      "url": "https://u.cs.biu.ac.il/~krauss/data/articles/AAMAS23___Allocation_with_Reusable_Resources_for_Proceedings.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-9",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Robust Identifiability in Linear Structural Equation Models of Causal Inference",
+      "url": "https://arxiv.org/pdf/2007.06869.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-10",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Bandits with Knapsacks beyond the Worst-Case Analysis",
+      "url": "https://arxiv.org/pdf/2002.00253.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-11",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Beyond log^2(T) Regret for Decentralized Bandits in Matching Markets",
+      "url": "https://arxiv.org/abs/2103.07501.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-12",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Multi-armed Bandits with Cost Subsidy",
+      "url": "https://arxiv.org/pdf/2011.01488.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-13",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Dominate or Delete: Decentralized Competing Bandits with Uniform Valuation",
+      "url": "https://arxiv.org/pdf/2006.15166.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-14",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Stochastic bandits for multi-platform budget optimization in online advertising",
+      "url": "https://arxiv.org/pdf/2103.10246.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-15",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Analyzing the effect of neural network architecture on training performance",
+      "url": "https://arxiv.org/pdf/1904.06963.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-16",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Matching Algorithms for Blood Donation",
+      "url": "https://karthikabinavs.xyz/papers/EC20.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-17",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Balancing the Tradeoff between Profit and Fairness in Rideshare Platforms during High-Demand Hours",
+      "url": "https://arxiv.org/pdf/1912.08388.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-18",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Mix and Match: Markov Chains and Mixing Times in Matching for Rideshare",
+      "url": "https://arxiv.org/abs/1912.00225.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-19",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Adversarial Bandits with Knapsacks",
+      "url": "https://arxiv.org/pdf/1811.11881.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-20",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Stability of Linear Structural Equation Model of Causal Inference",
+      "url": "https://arxiv.org/pdf/1905.06836.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-21",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Online Resource Allocation with Matching Constraints",
+      "url": "https://karthikabinavs.xyz/papers/aamas19.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-22",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "A Unified Approach to Online Matching with Conflict-Aware Constraints",
+      "url": "https://karthikabinavs.xyz/papers/AAAI192.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-23",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Balancing Relevance and Diversity in Online Matching via Submodularity",
+      "url": "https://arxiv.org/abs/1811.05100"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-24",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Assigning Tasks to Workers based on Historical Data: Online Matching with Two-sided Arrivals",
+      "url": "https://karthikabinavs.xyz/papers/aamas2018.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-25",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Combinatorial Semi-Bandits with Knapsacks",
+      "url": "https://arxiv.org/abs/1705.08110"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-26",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Allocation Problems in Ride-Sharing Platforms: Online Matching with Offline Reusable Resources",
+      "url": "https://arxiv.org/abs/1711.08345"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-27",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Algorithms to Approximate Column-Sparse Packing Programs",
+      "url": "https://arxiv.org/abs/1711.02724"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-28",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Attenuate Locally, Win Globally: Attenuation-based Frameworks for Online Stochastic Matching with Timeouts",
+      "url": "https://arxiv.org/abs/1804.08062"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-29",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "New Algorithms, Better Bounds, and a Novel Model for Online Stochastic Matching",
+      "url": "https://arxiv.org/abs/1606.06395"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-30",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Ensuring Privacy in Location Based Services: An Approach Based on Opacity Enforcement",
+      "url": "http://www.sciencedirect.com/science/article/pii/S1474667015373778"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-31",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Attenuate Locally, Win Globally: Attenuation-based Frameworks for Online Stochastic Matching with Timeouts",
+      "url": "http://em.rdcu.be/wf/click?upn=lMZy1lernSJ7apc5DgYM8cde1i3x8V0hxHCeyV837AI-3D_wrfAgv39wJ1-2BLjjLUxBFa3Bkmbvfbo-2BkFt8vK-2B9JnNAVAvVMEgtYUvG4Jqk1mK-2BjUgKUhrNe3hhEiwrhGsHeFFdA7ZTLro-2FxxwbziNRkDLf3bVuorTqWzVACYwXOB1dDVDsYvvs6dD5czCWCSXBma01R3jRPA3AEFPfELJH5mvz06s78-2BBY46H8zi51YoZMClzO-2Fom-2B8cg1U4LUtL3qXVrpAF94j-2BFeeVbzO023tm3LhU9xWtqJzQ3nfWGt5zJxN3YRvxvhHjaQlF-2FThlPEJGg-3D-3D"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-32",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Algorithms to approximate column-sparse packing problems",
+      "url": "https://dl.acm.org/citation.cfm?id=3355400"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-33",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Online Stochastic Matching: New Algorithms and Bounds",
+      "url": "https://rdcu.be/b3OnZ"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-34",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Allocation Problems in Ride-Sharing Platforms: Online Matching with Offline Reusable Resources",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3456756"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-35",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Online minimum matching with uniform metric and random arrivals",
+      "url": "https://arxiv.org/abs/2112.05247"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-36",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Adversarial Bandits with Knapsacks",
+      "url": "https://arxiv.org/abs/1811.11881"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-37",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Matching Algorithms for Blood Donation",
+      "url": "https://arxiv.org/pdf/2010.08142.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-38",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "BayesFormer: Transformer with Uncertainty Estimation",
+      "url": "https://arxiv.org/pdf/2206.00826.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-39",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Improved Adaptive Algorithm for Scalable Active Learning with Weak Labeler",
+      "url": "https://arxiv.org/abs/2211.02233.pdf"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-40",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "The Perfect Blend: Redefining RLHF with Mixture of Judges",
+      "url": "https://arxiv.org/pdf/2409.20370"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-41",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Preference Optimization with Multi-Sample Comparisons",
+      "url": "https://arxiv.org/abs/2410.12138"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-42",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Multi-IF: Benchmarking LLMs on Multi-Turn and Multilingual Instructions Following",
+      "url": "https://arxiv.org/abs/2410.15553"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-43",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Reinforcement Learning from User Feedback",
+      "url": "https://arxiv.org/abs/2505.14946v1"
+    },
+    {
+      "@id": "https://karthikabinavs.xyz/#pub-44",
+      "@type": "ScholarlyArticle",
+      "author": {
+        "@id": "https://karthikabinavs.xyz/#person"
+      },
+      "isPartOf": {
+        "@id": "https://karthikabinavs.xyz/#all-publications"
+      },
+      "name": "Dual-Weighted Reinforcement Learning for Generative Preference Modeling",
+      "url": "https://arxiv.org/abs/2510.15242"
+    }
+  ]
+}

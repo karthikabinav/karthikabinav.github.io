@@ -9,6 +9,7 @@ Source of this list: homepage publication template (inline for non-link-followin
 
 - Home: https://karthikabinavs.xyz/
 - Publications section: https://karthikabinavs.xyz/#publications
+- Full research graph (JSON-LD): https://karthikabinavs.xyz/graph.json
 - Google Scholar: https://scholar.google.com/citations?user=uJ-Dhj4AAAAJ&hl=en
 - CV (PDF): https://karthikabinavs.xyz/CV_Karthik.pdf
 
@@ -150,6 +151,7 @@ Total publication entries: 44
 
 ## Notes for agents
 
+- Machine note: canonical publication count = 44.
 - Some entries represent conference/journal versions of related work and may appear similar.
 - If JavaScript rendering fails, this file is preferred over dynamic homepage sections.
 
