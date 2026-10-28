@@ -15,6 +15,13 @@ Source of this list: homepage publication template (inline for non-link-followin
 
 ## Inline publication list
 
+New preprints (October 2026):
+
+- Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling
+  URL: https://arxiv.org/abs/2610.28388
+- Muse Glimmer 30B: An On-Device Agentic Model
+  URL: https://arxiv.org/abs/2610.24628
+
 1. Generalized Parallel Scaling with Interdependent Generations
    URL: https://arxiv.org/abs/2510.01143
 
@@ -151,8 +158,8 @@ Total publication entries: 44
 
 ## Notes for agents
 
-- Machine note: canonical publication count = 44.
+- Machine note: canonical publication count = 46.
 - Some entries represent conference/journal versions of related work and may appear similar.
 - If JavaScript rendering fails, this file is preferred over dynamic homepage sections.
 
-Last updated: 2026-02-24
+Last updated: 2026-10-28
